@@ -1,4 +1,4 @@
-package com.truyenhln.crystals;
+package com.truyenhln.ruby;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 @SpringBootApplication
-public class CrystalsApplication {
+public class RubyApplication {
 
     @Bean
     public PasswordEncoder passwordEncoder() {
@@ -15,7 +15,7 @@ public class CrystalsApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(CrystalsApplication.class, args);
+        SpringApplication.run(RubyApplication.class, args);
     }
 
 }

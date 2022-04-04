@@ -1,4 +1,4 @@
-package com.truyenhln.crystals.configurations;
+package com.truyenhln.ruby.configurations;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +14,7 @@ import static org.springframework.security.config.Customizer.withDefaults;
 @EnableWebSecurity
 @Configuration
 @RequiredArgsConstructor
-public class CrystalsSecurityConfig extends WebSecurityConfigurerAdapter {
+public class RubySecurityConfig extends WebSecurityConfigurerAdapter {
 
     private final PasswordEncoder passwordEncoder;
 

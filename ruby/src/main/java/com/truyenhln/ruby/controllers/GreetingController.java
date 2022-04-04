@@ -1,6 +1,6 @@
-package com.truyenhln.crystals.controllers;
+package com.truyenhln.ruby.controllers;
 
-import com.truyenhln.crystals.models.Greeting;
+import com.truyenhln.ruby.models.Greeting;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

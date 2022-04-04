@@ -1,4 +1,4 @@
-package com.truyenhln.crystals.models;
+package com.truyenhln.ruby.models;
 
 import lombok.Getter;
 import lombok.Setter;
